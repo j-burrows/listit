@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LISTIT", "LISTIT\LISTIT.csproj", "{F6BB642A-E521-4405-BF15-EFC939854917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{300B6EAA-F0A3-4B60-8CFB-C7C9D21CC875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{E3EF17CA-50B6-4BBE-B762-831F4373DD56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6BB642A-E521-4405-BF15-EFC939854917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BB642A-E521-4405-BF15-EFC939854917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BB642A-E521-4405-BF15-EFC939854917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BB642A-E521-4405-BF15-EFC939854917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300B6EAA-F0A3-4B60-8CFB-C7C9D21CC875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300B6EAA-F0A3-4B60-8CFB-C7C9D21CC875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300B6EAA-F0A3-4B60-8CFB-C7C9D21CC875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300B6EAA-F0A3-4B60-8CFB-C7C9D21CC875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EF17CA-50B6-4BBE-B762-831F4373DD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EF17CA-50B6-4BBE-B762-831F4373DD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EF17CA-50B6-4BBE-B762-831F4373DD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EF17CA-50B6-4BBE-B762-831F4373DD56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
