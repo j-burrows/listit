@@ -24,8 +24,7 @@ namespace Domain.Concrete
             get { return itemsTable; }
         }
 
-        /*
-         +-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+        /*-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
          |  Subroutine: saveItem
          +-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
          |  Purpose:    to update changes, or insert lists into the database.
@@ -55,8 +54,7 @@ namespace Domain.Concrete
             itemsTable.Context.SubmitChanges();
         }
 
-        /*
-         +-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+        /*-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
          |  Subroutine: deleteItem
          +-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
          |  Purpose:    to remove a given item from the database.
@@ -70,8 +68,7 @@ namespace Domain.Concrete
             itemsTable.Context.SubmitChanges();
         }
 
-        /*
-         +-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+        /*-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
          |  Method:     itemsFromList
          +-- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
          |  Purpose:    Compiles a list of items from a given listIID
